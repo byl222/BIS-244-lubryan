@@ -1,5 +1,5 @@
 #Assignment 2 BIS 244 by Bryan Lu
-
+library(tidyverse)
 us_states <- read_csv("us-states.csv")
 view(us_states)
 
