@@ -21,7 +21,7 @@ p + geom_point(data=Northampton,
   geom_point(data=Northampton,
              mapping = aes(x = date,
                            y = cases,color="cases")) +
-  labs( title = "COVID-19 Cases in Northampton County, PA",
+  labs( title = "COVID-19 Cases and Deaths in Northampton County, PA",
        subtitle =  waiver()) +
   xlab('Date') +
   ylab('Cases and Deaths') 
